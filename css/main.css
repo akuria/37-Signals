@@ -15,7 +15,7 @@ section {
 }
 
 hr {
-    background: white url('img/img-hr.png') no-repeat scroll 50% 50%;
+    background: white url(../img/img-hr.png) no-repeat scroll 50% 50%;
     clear: both;
     border: 0;
     color: transparent;
@@ -183,7 +183,7 @@ header h5 {
     display: block;
     width: 143px;
     height: 104px;
-    background: url('img/img-customers.png') no-repeat 0 0;
+    background: url(../img/img-customers.png) no-repeat 0 0;
     text-indent: -1000em;
 }
 
@@ -597,6 +597,13 @@ div.extra {
     background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e8e8e8));
     color: #336699;
 }
+
+
+
+/*  media query  */
+
+
+
 
 @media screen and (max-width: 375px){
 
